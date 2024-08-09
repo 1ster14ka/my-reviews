@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0e1823;
+  font-family: "Inter", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.about-us {
+  /* margin-top: -38px; */
+  /* padding: 0 20px; */
+  /* min-height: 775px; */
+}
+.container {
+  /* background-color: #fbfbfb; */
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+  min-height: 675px;
+  position: relative;
+}
+
+.wrapp-text {
+  background-color: #fbfbfb;
+  padding: 40px 20px;
+  border-radius: 24px 24px 0 0;
+  position: relative;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin-bottom: 40px;
+}
+.subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin-bottom: 20px;
+}
+.text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #040306;
+  opacity: 0.4;
+}
+
+.img-about-us {
+  /* position: absolute;
+  bottom: -100px;
+  left: 0; */
+  border-radius: 24px;
+  height: 395px;
+  position: absolute;
+  top: 0;
+}
+
+.test {
+  background-color: #fbfbfb;
+  height: 20px;
+}
+
+.wrapp-img {
+  /* height: 395px; */
+  position: relative;
+  margin-top: -1px;
+
+  /* overflow: hidden; */
+}
+
+@media screen and (min-width: 768px) {
+  .about-us {
+    min-height: 951px;
+  }
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .wrapp-text {
+    padding: 50px 0 50px 32px;
+  }
+
+  .title {
+    font-size: 48px;
+    max-width: 536px;
+    margin-bottom: 50px;
+  }
+
+  .subtitle {
+    font-size: 23px;
+    max-width: 389px;
+  }
+
+  .text {
+    font-size: 13px;
+    line-height: 1.15;
+    max-width: 385px;
+  }
+
+  .img-about-us {
+    height: 470px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  .wrapp-text {
+    padding: 50px 50px 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wrapp-subtitle {
+  }
+
+  .subtitle,
+  .text {
+    max-width: 354px;
+  }
+
+  .img-about-us {
+    width: 100%;
+  }
+}
